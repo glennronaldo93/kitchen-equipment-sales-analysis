@@ -247,12 +247,13 @@ kitchen-equipment-sales-analysis/
 **Glenn Ronaldo Tambunan**
 
 D3 Information Systems Student  
-UPN "Veteran" Jakarta
+Universitas Pembangunan Nasional "Veteran" Jakarta
 
 Interested in:
 - Data Analytics
 - Business Intelligence
 - Data Visualization
+- Data-driven Problem Solving
 
 Technical Skills:
 - Microsoft Excel
@@ -263,3 +264,5 @@ Technical Skills:
 - Power BI
 
 ---
+
+This project was developed as part of the KarirNex Data Analyst Bootcamp Batch 6.
