@@ -1,101 +1,125 @@
 # Kitchen Equipment Sales Analysis
 
-## Project Overview
+## Gambaran Proyek
 
-This project focuses on analyzing kitchen equipment sales data to generate business insights related to sales performance, product performance, customer behavior, and operational metrics.
+Proyek ini berfokus pada analisis data penjualan peralatan dapur untuk menghasilkan business insight mengenai sales performance, product performance, customer behavior, dan operational metrics.
 
-The analysis was conducted through an end-to-end Data Analytics workflow, starting from data preparation, exploratory analysis, SQL-based analysis, and dashboard visualization.
+Analisis dilakukan melalui end-to-end Data Analytics workflow yang mencakup data preparation, data cleaning, SQL analysis, Exploratory Data Analysis menggunakan Python, serta dashboard visualization menggunakan Looker Studio.
 
-This project was developed as part of the KarirNex Data Analyst Bootcamp Batch 6, applying practical data analytics techniques using Excel, SQL, Python, and data visualization tools.
-
----
-
-## Business Objectives
-
-The main objectives of this project are:
-
-- Analyze overall sales performance and revenue trends.
-- Identify top-performing products based on sales quantity and revenue contribution.
-- Analyze customer purchasing behavior and transaction patterns.
-- Evaluate operational metrics such as shipping fees and refund performance.
-- Generate actionable insights through data analysis and visualization.
+Proyek ini dikembangkan sebagai bagian dari **KarirNex Data Analyst Bootcamp Batch 6** dengan menerapkan keterampilan praktis menggunakan Microsoft Excel, Google BigQuery, Python, dan Google Looker Studio.
 
 ---
 
-## Dataset Description
+## Tujuan Bisnis
 
-The dataset used in this project contains kitchen equipment sales transaction data. The dataset includes information related to orders, products, customers, sales dates, transaction status, revenue, and shipping costs.
+Proyek ini bertujuan untuk:
 
-The dataset was processed and analyzed through multiple stages, including data cleaning, exploratory data analysis, SQL querying, and dashboard development.
+- Menganalisis sales performance dan revenue trend secara keseluruhan.
+- Mengidentifikasi top-performing products berdasarkan jumlah unit terjual dan kontribusi revenue.
+- Menganalisis customer purchasing behavior dan pola transaksi pelanggan.
+- Mengevaluasi operational metrics, seperti shipping fee dan refund performance.
+- Menghasilkan actionable insight yang dapat mendukung pengambilan keputusan bisnis.
+
+---
+
+## Deskripsi Dataset
+
+Dataset yang digunakan berisi data transaksi penjualan peralatan dapur selama tahun 2025.
+
+Informasi yang tersedia dalam dataset meliputi:
+
+- Order information
+- Product name dan product category
+- Customer information
+- Sales date
+- Quantity
+- Total sales
+- Shipping fee
+- Discount
+- Transaction status
+- City
+
+Dataset diproses melalui beberapa tahapan, mulai dari data cleaning dan validation menggunakan Microsoft Excel, SQL querying menggunakan Google BigQuery, Exploratory Data Analysis menggunakan Python, hingga pengembangan dashboard menggunakan Looker Studio.
 
 ---
 
 ## Tools & Technologies
 
-The following tools and technologies were used throughout this project:
+Tools dan teknologi yang digunakan dalam proyek ini adalah:
 
-| Category | Tools |
+| Kategori | Tools |
 |---|---|
 | Data Processing | Microsoft Excel |
-| Data Analysis | SQL (Google BigQuery) |
-| Exploratory Data Analysis | Python (Pandas, NumPy, Matplotlib) |
-| Data Visualization | Looker Studio |
-| Documentation | PDF Report |
+| Data Analysis | SQL dan Google BigQuery |
+| Exploratory Data Analysis | Python, Pandas, NumPy, dan Matplotlib |
+| Data Visualization | Google Looker Studio |
+| Documentation | Jupyter Notebook dan PDF Report |
 
 ---
 
-## Project Workflow
+## Alur Pengerjaan Proyek
 
-This project was completed through an end-to-end data analytics workflow consisting of four main stages:
+Proyek ini diselesaikan melalui empat tahapan utama dalam end-to-end Data Analytics workflow.
 
-### 1. Data Preparation & Cleaning (Excel)
+### 1. Data Preparation & Cleaning — Microsoft Excel
 
-The initial stage focused on preparing raw sales data by performing data cleaning and validation using Microsoft Excel.
+Tahap pertama berfokus pada persiapan dan pembersihan raw data menggunakan Microsoft Excel.
 
-Activities performed:
-- Handling missing and inconsistent data
-- Checking data structure and data types
-- Removing duplicate records
-- Preparing clean datasets for further analysis
+Aktivitas yang dilakukan meliputi:
 
-Tools:
+- Menangani missing value dan data yang tidak konsisten.
+- Memeriksa struktur data dan data type.
+- Mengidentifikasi serta menghapus duplicate records.
+- Menstandarkan format data.
+- Menyiapkan clean dataset untuk proses analisis selanjutnya.
+
+**Tools:**
+
 - Microsoft Excel
 
 ---
 
-### 2. SQL Analysis (Google BigQuery)
+### 2. SQL Analysis — Google BigQuery
 
-SQL analysis was conducted to extract business insights from the cleaned dataset.
+SQL analysis dilakukan untuk menjawab business questions dan mengekstrak informasi penting dari clean dataset.
 
-Key analyses performed:
+Analisis yang dilakukan meliputi:
+
 - Shipping fee analysis
-- Top-performing product analysis
-- Revenue contribution analysis
-- Sales trend analysis
+- Top-selling product analysis
+- Product revenue contribution
+- Quarterly sales analysis
 - Refund performance analysis
-- Product quantity analysis
-- Category sales analysis
+- Average product quantity analysis
+- Monthly category performance
 - Pareto analysis
-- Customer purchasing behavior analysis
-- Customer transaction gap analysis
+- Customer purchasing behavior
+- Customer transaction gap
+- Product refund rate analysis
 
-Tools:
+**Tools:**
+
 - SQL
 - Google BigQuery
 
 ---
 
-### 3. Exploratory Data Analysis (Python)
+### 3. Exploratory Data Analysis — Python
 
-Exploratory Data Analysis (EDA) was performed to understand sales patterns, identify trends, and discover important insights from the dataset.
+Exploratory Data Analysis dilakukan untuk memahami karakteristik dataset, mengidentifikasi pola penjualan, serta menghasilkan visualisasi yang mendukung proses interpretasi data.
 
-Activities performed:
-- Data exploration
+Aktivitas yang dilakukan meliputi:
+
+- Data loading dan data inspection
+- Data cleaning validation
 - Statistical summary analysis
 - Distribution analysis
+- Data aggregation
 - Data visualization
+- Business insight generation
 
-Tools:
+**Tools:**
+
 - Python
 - Pandas
 - NumPy
@@ -106,79 +130,122 @@ Tools:
 
 ### 4. Dashboard Development & Visualization
 
-The final stage focused on transforming analytical results into interactive visualizations to support business decision-making.
+Tahap terakhir berfokus pada penyajian hasil analisis dalam bentuk interactive dashboard menggunakan Google Looker Studio.
 
-Dashboard components include:
-- Sales performance overview
-- Revenue analysis
-- Product performance
-- Customer insights
-- Operational metrics
+Dashboard mencakup:
 
-Tools:
-- Looker Studio
+- Total sales
+- Total orders
+- Completed order rate
+- Monthly sales trend
+- Sales contribution by category
+- Sales distribution by city
+- Top-selling products
+- Interactive filters berdasarkan category, status, dan city
+- Insight dan business recommendation
+
+**Tools:**
+
+- Google Looker Studio
 
 ---
 
-## Dashboard Preview
+## Preview Dashboard
 
-The final dashboard was developed using Looker Studio to visualize sales performance and generate actionable business insights.
+Dashboard dikembangkan menggunakan Google Looker Studio untuk memvisualisasikan sales performance dan menyajikan business insight secara interaktif.
 
-Dashboard focuses on:
-- Overall sales performance monitoring
-- Revenue and sales trend analysis
-- Product performance evaluation
-- Customer purchasing behavior
-- Operational performance metrics
+Dashboard membantu pengguna dalam:
 
+- Memantau overall sales performance.
+- Menganalisis monthly revenue trend.
+- Mengevaluasi product dan category performance.
+- Mengidentifikasi sales distribution berdasarkan city.
+- Memantau completed order rate.
+- Mendukung data-driven decision-making.
 
 ![Kitchen Equipment Sales Dashboard](dashboard/kitchen-equipment-sales-dashboard.png)
 
+### Interactive Dashboard
 
-Interactive Dashboard:
-
-The interactive dashboard link is available in:
+Link interactive dashboard tersedia pada file berikut:
 
 `dashboard/looker-studio-dashboard-link.txt`
 
 ---
 
-## Key Insights
+## Sertifikat Bootcamp
 
-Based on the analysis results, several business insights were identified:
+Proyek ini dikembangkan sebagai bagian dari **KarirNex Data Analyst Bootcamp Batch 6**.
 
-### Sales Performance
+Program bootcamp mencakup pengembangan keterampilan praktis dalam bidang Data Analytics, antara lain:
 
-- The analysis recorded a total revenue of approximately **Rp5.9 million** with **10,000 total orders** and a completed order rate of **89.7%** based on the dashboard performance overview.
-- Monthly sales performance showed relatively stable trends throughout 2025, with the highest monthly revenue occurring in **August 2025 reaching Rp523.8 million**.
+- Introduction to Data Analyst and Data Analytics
+- Data Formatting and Data Cleaning
+- Systematic Data Analysis
+- SQL Analysis menggunakan Google BigQuery
+- Python Analysis menggunakan Google Colab
+- Data Visualization dan Dashboard Development
+- Google Looker Studio
+- Mini Project
 
-### Product Performance
+Berikut merupakan sertifikat penyelesaian program:
 
-- The **Mesin Kopi Espresso Rumahan** was identified as the highest revenue-contributing product with total revenue of **Rp640.2 million**, followed by **Food Processor** with **Rp447.4 million**.
-- Based on sales quantity, the highest-selling products included **Tempat Tisu Meja (370 units)**, **Cobek Granit (365 units)**, and **Keranjang Buah Besi (361 units)**.
-- Category analysis showed that **Alat Masak** became the dominant sales contributor, accounting for approximately **79.5% of total sales contribution**.
+![KarirNex Data Analyst Certificate Page 1](certificate/KarirNex_Data_Analyst_Certificate_Page1.png)
 
-### Customer Behavior
+![KarirNex Data Analyst Certificate Page 2](certificate/KarirNex_Data_Analyst_Certificate_Page2.png)
 
-- Customer purchasing behavior analysis identified repeat purchase patterns, with several customers showing transaction gaps ranging from approximately **9.9 to 12.7 days**.
-- The analysis helps identify potential repeat customers and opportunities for targeted retention strategies.
+![KarirNex Data Analyst Certificate Page 3](certificate/KarirNex_Data_Analyst_Certificate_Page3.png)
 
-### Operational Metrics
+Dokumen sertifikat lengkap dapat diakses melalui:
 
-- The total shipping cost analyzed reached **Rp570.16 million**, with an average shipping fee of approximately **Rp57,016 per transaction**.
-- Refund analysis showed total refund value of **Rp279.71 million**, representing approximately **4.76% of gross revenue**.
-- Products with the highest refund rates included **Panci Stainless 20 cm (8.29%)**, **Talenan Kayu Jati (7.75%)**, and **Wadah Makanan Kedap Udara Set (7.65%)**, indicating products that may require further quality evaluation.
+`certificate/KarirNex_Data_Analyst_Expert_Certificate.pdf`
 
 ---
 
-## Project Structure
+## Insight Utama
 
-The repository is organized based on the end-to-end data analytics workflow, starting from data preparation, analysis, visualization, and documentation.
+Berdasarkan hasil analisis, diperoleh beberapa business insight berikut.
+
+### Sales Performance
+
+- Dashboard mencatat total sales sekitar **Rp5,9 miliar** dari **10.000 orders**, dengan completed order rate sebesar **89,7%**.
+- Monthly sales menunjukkan pola yang relatif stabil sepanjang tahun 2025, yaitu sekitar **Rp453,1 juta hingga Rp523,8 juta per bulan**.
+- Sales tertinggi terjadi pada **Agustus 2025** sebesar **Rp523,8 juta**, sedangkan sales terendah terjadi pada **Februari 2025** sebesar **Rp453,1 juta**.
+- Pada kuartal IV tahun 2025, terdapat **2.156 completed orders** dengan total revenue sebesar **Rp1,295 miliar**.
+
+### Product Performance
+
+- Berdasarkan transaksi berstatus completed, **Mesin Kopi Espresso Rumahan** menghasilkan revenue tertinggi sebesar **Rp640,22 juta**, diikuti oleh **Food Processor** sebesar **Rp447,39 juta**.
+- Produk dengan jumlah unit terjual tertinggi adalah **Tempat Tisu Meja sebanyak 370 unit**, **Cobek Granit sebanyak 365 unit**, dan **Keranjang Buah Besi sebanyak 361 unit**.
+- Kategori **Alat Masak** menjadi kontributor utama dengan menyumbang sekitar **79,5% dari total sales**.
+- Pareto analysis menunjukkan bahwa sebagian produk dengan revenue tertinggi memberikan kontribusi yang dominan terhadap total pendapatan.
+
+### Customer Behavior
+
+- Analisis transaction gap menunjukkan adanya perbedaan frekuensi pembelian antar pelanggan.
+- Pelanggan dengan rata-rata transaction gap paling pendek adalah **Customer_3 sebesar 9,9 hari**, **Customer_9 sebesar 10,1 hari**, dan **Customer_5 sebesar 11 hari**.
+- Pelanggan dengan transaction gap yang pendek dapat diprioritaskan dalam customer retention program, loyalty program, dan personalized promotion.
+
+### Operational Metrics
+
+- Total shipping fee mencapai **Rp570,16 juta**, dengan rata-rata shipping fee sebesar **Rp57.016 per transaksi**.
+- Total refund value mencapai **Rp279,71 juta** atau sekitar **4,76% dari gross revenue**.
+- Produk dengan refund rate tertinggi adalah **Panci Stainless 20 cm sebesar 8,29%**, **Talenan Kayu Jati sebesar 7,75%**, dan **Wadah Makanan Kedap Udara Set sebesar 7,65%**.
+- Produk dengan refund rate tinggi memerlukan evaluasi lebih lanjut terhadap product quality, packaging, product description, dan proses pengiriman.
+
+---
+
+## Struktur Proyek
+
+Repository disusun berdasarkan tahapan end-to-end Data Analytics workflow, mulai dari data preparation, analysis, visualization, hingga documentation.
 
 ```text
 kitchen-equipment-sales-analysis/
 │
 ├── certificate/
+│   ├── KarirNex_Data_Analyst_Certificate_Page1.png
+│   ├── KarirNex_Data_Analyst_Certificate_Page2.png
+│   ├── KarirNex_Data_Analyst_Certificate_Page3.png
 │   └── KarirNex_Data_Analyst_Expert_Certificate.pdf
 │
 ├── dashboard/
@@ -201,7 +268,6 @@ kitchen-equipment-sales-analysis/
 │   └── Kitchen_Equipment_Sales_Analysis_Report.pdf
 │
 ├── sql/
-│   │
 │   ├── day-2-bigquery/
 │   │   ├── query_01_shipping_fee.sql
 │   │   ├── query_02_top_product.sql
@@ -229,15 +295,18 @@ kitchen-equipment-sales-analysis/
 │       └── query_10_highest_refund_output.csv
 │
 └── README.md
+```
 
 ---
 
-## Project Highlights
+## Sorotan Proyek
 
-- End-to-end Data Analytics project covering data preparation, SQL analysis, Python EDA, and dashboard visualization.
-- Implemented 10 SQL business analysis queries using Google BigQuery.
-- Developed an interactive sales performance dashboard using Looker Studio.
-- Generated business insights related to sales performance, product contribution, customer behavior, and operational metrics.
+- Mengembangkan end-to-end Data Analytics project yang mencakup data preparation, SQL analysis, Python EDA, dan dashboard visualization.
+- Menyelesaikan analisis untuk **10 business questions** menggunakan Google BigQuery.
+- Menyediakan file SQL query beserta query output dalam format CSV.
+- Mengembangkan interactive sales performance dashboard menggunakan Google Looker Studio.
+- Menghasilkan business insight terkait sales performance, product contribution, customer behavior, dan operational metrics.
+- Menyusun project report dan dokumentasi pendukung dalam format PDF.
 
 ---
 
@@ -245,20 +314,25 @@ kitchen-equipment-sales-analysis/
 
 **Glenn Ronaldo Tambunan**
 
-D3 Information Systems Student  
-UPN "Veteran" Jakarta
+Mahasiswa D3 Sistem Informasi  
+Universitas Pembangunan Nasional "Veteran" Jakarta
 
-Interested in:
+Bidang yang diminati:
+
 - Data Analytics
 - Business Intelligence
 - Data Visualization
+- Data-driven Problem Solving
 
 Technical Skills:
+
 - Microsoft Excel
 - SQL (Google BigQuery)
 - Python (Pandas, NumPy, Matplotlib)
-- Looker Studio
+- Google Looker Studio
 - Tableau
 - Power BI
 
 ---
+
+Proyek ini dikembangkan sebagai bagian dari **KarirNex Data Analyst Bootcamp Batch 6**.
