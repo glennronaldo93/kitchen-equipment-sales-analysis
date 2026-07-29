@@ -175,7 +175,7 @@ Based on the analysis results, several business insights were identified:
 
 The repository is organized based on the end-to-end data analytics workflow, starting from data preparation, analysis, visualization, and documentation.
 
-```text
+```
 kitchen-equipment-sales-analysis/
 │
 ├── certificate/
@@ -229,6 +229,7 @@ kitchen-equipment-sales-analysis/
 │       └── query_10_highest_refund_output.csv
 │
 └── README.md
+```
 
 ---
 
